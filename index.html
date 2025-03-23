@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker UX</h1>
+        <button id="addExpenseBtn">Add Expense</button>
+    </header>
+    <main>
+        <section class="dashboard">
+            <div class="stats">
+                <div class="card">Total Expenses: <span id="totalExpenses">$0</span></div>
+                <div class="card">Savings: <span id="savings">$0</span></div>
+            </div>
+        </section>
+        <section class="transactions">
+            <h2>Recent Transactions</h2>
+            <ul id="transactionList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
